@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  padding: 0 200px;
+  background-color: #fff;
+
+  background: -webkit-linear-gradient(
+    to right,
+    #3a6073,
+    #16222a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3a6073,
+    #19232b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.description {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+}
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  /* background-color: rgba(27, 27, 50, 0.8); */
+
+  background: -webkit-linear-gradient(to right, #4286f4, #373b44);
+  background: linear-gradient(to right, #4286f4, #373b44);
+  box-shadow: 1px 2px 6px 1px rgb(29, 31, 29);
+
+  color: #fff;
+}
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+
+  text-transform: uppercase;
+}
+
+#survey-form input {
+  padding: 8px 10px;
+  /* margin: 10px 0; */
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+.checkbox {
+  padding: 8px 10px;
+  /* margin: 10px 0; */
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+input:focus {
+  outline: none;
+}
+label {
+  font-size: 1.2rem;
+  margin: 30px 0 5px 0;
+  font-weight: 400;
+}
+select {
+  padding: 8px 10px;
+
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+select:focus {
+  outline: none;
+}
+
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+textarea {
+  font-size: 1.2rem;
+}
+textarea:focus {
+  outline: none;
+}
+#submit {
+  margin-top: 20px;
+  background-color: #203a43;
+  box-shadow: 1px 1px 5px 2px rgb(28 24 24);
+
+  color: #fff;
+  text-align: center;
+}
+
+@media only screen and (max-width: 960px) {
+  body {
+    padding: 0 20px;
+  }
+}
